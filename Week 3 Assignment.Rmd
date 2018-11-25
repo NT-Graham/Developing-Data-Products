@@ -1,0 +1,14 @@
+---
+title: "Developing Data products :Assignment 3"
+author: "Niall Graham"
+date: "25 November 2018"
+output: html_document
+runtime: shiny
+---
+
+```{r, echo=FALSE} 
+library(plotly)
+terrain2 <- matrix(sort(rnorm(100*100)), nrow = 100, ncol = 100)
+plot_ly(z = terrain2, type = "surface")
+
+```
